@@ -1,5 +1,7 @@
 # Gestion de Notes 🎓
 
+![Interface de l'application](screenshots/interface-principale.png)
+
 Application web simple de gestion de notes scolaires développée en PHP procédural avec PDO et SQLite.
 
 **Démo en ligne :** [Voir la capture d'écran](#-captures-décran)
