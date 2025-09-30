@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Placeholder - Capture d'écran</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        .placeholder {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            text-align: center;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            max-width: 500px;
+        }
+        .placeholder h2 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .placeholder p {
+            color: #666;
+            line-height: 1.6;
+        }
+        .icon {
+            font-size: 64px;
+            margin-bottom: 20px;
+        }
+        code {
+            background: #f5f5f5;
+            padding: 2px 6px;
+            border-radius: 4px;
+            color: #d63384;
+        }
+    </style>
+</head>
+<body>
+    <div class="placeholder">
+        <div class="icon">📸</div>
+        <h2>Capture d'écran à ajouter</h2>
+        <p>
+            Pour ajouter la capture d'écran de l'application :
+        </p>
+        <ol style="text-align: left; color: #666;">
+            <li>Lancez l'application : <code>php -S localhost:8000</code></li>
+            <li>Ajoutez quelques notes d'exemple</li>
+            <li>Prenez une capture d'écran</li>
+            <li>Sauvegardez-la comme : <code>interface-principale.png</code></li>
+            <li>Placez-la dans le dossier <code>screenshots/</code></li>
+        </ol>
+        <p style="margin-top: 30px;">
+            <small>La capture apparaîtra automatiquement dans le README</small>
+        </p>
+    </div>
+</body>
+</html>

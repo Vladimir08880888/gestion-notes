@@ -1,6 +1,8 @@
-# Gestion de Notes
+# Gestion de Notes 🎓
 
 Application web simple de gestion de notes scolaires développée en PHP procédural avec PDO et SQLite.
+
+**Démo en ligne :** [Voir la capture d'écran](#-captures-décran)
 
 ## 📋 Présentation
 
@@ -63,10 +65,38 @@ gestion-notes/
 - Protection contre les injections SQL
 - Échappement des données avec htmlspecialchars()
 
+## 📤 Déploiement sur GitHub
+
+1. Créez un nouveau repository sur GitHub nommé `gestion-notes`
+2. Initialisez git dans le dossier du projet :
+   ```bash
+   git init
+   git add .
+   git commit -m "Initial commit - Application de gestion de notes"
+   ```
+3. Ajoutez le remote et poussez :
+   ```bash
+   git remote add origin https://github.com/VOTRE_USERNAME/gestion-notes.git
+   git branch -M main
+   git push -u origin main
+   ```
+
 ## 👤 Auteur
 
 Développé avec ❤️ pour le Training 2
 
 ## 📸 Captures d'écran
 
-L'application permet de créer, afficher et supprimer des notes de manière simple et efficace.
+### Interface principale
+![Interface de l'application](screenshots/interface-principale.png)
+
+L'application présente une interface claire avec :
+- Un formulaire d'ajout de notes en haut
+- La liste des notes en dessous
+- Un bouton de suppression pour chaque note
+
+### Fonctionnalités
+- ✅ Interface simple et intuitive
+- ✅ Ajout rapide de notes
+- ✅ Affichage chronologique (plus récentes en premier)
+- ✅ Suppression en un clic

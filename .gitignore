@@ -1,0 +1,19 @@
+# Base de données SQLite
+database.sqlite
+*.sqlite
+*.db
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Temporaires
+*.tmp
+*.temp
